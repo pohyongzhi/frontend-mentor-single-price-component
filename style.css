@@ -101,9 +101,10 @@ body {
     gap: 0.25rem;
 }
 
-.component__why-us .paragraph-group p {
+.component__why-us .paragraph-group li {
     font-weight: 200;
     font-size: 0.95rem;
+    list-style-type: none;
 }
 
 @media screen and (min-width: 600px) {
@@ -116,7 +117,7 @@ body {
         font-size: 1.1rem;
     }
 
-    .component__description p {
+    .component__description li {
         font-size: 1rem;
     }
 
